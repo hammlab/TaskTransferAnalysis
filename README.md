@@ -49,6 +49,13 @@ Running the codes for fine-tuning and task transfer analysis (after navigating t
 If you find this useful for your work, please consider citing
 <pre>
 <code>
-
+@misc{mehra2023analysis,
+      title={Analysis of Task Transferability in Large Pre-trained Classifiers}, 
+      author={Akshay Mehra and Yunbei Zhang and Jihun Hamm},
+      year={2023},
+      eprint={2307.00823},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}
 </code>
 </pre>
