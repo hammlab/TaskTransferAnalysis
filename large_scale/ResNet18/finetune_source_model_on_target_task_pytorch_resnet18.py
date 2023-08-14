@@ -179,7 +179,7 @@ for epoch in range(EPOCHS):
             only_inputs=True,
         )[0]
         test_gradients = test_gradients.view(test_gradients.size(0), -1)
-        gradient_norm = torch.max(gradients.norm(2, dim=1))
+        gradient_norm = torch.max(test_gradients.norm(2, dim=1))
         print("Max grad norm:", gradient_norm.item())
         print("\n")
 
